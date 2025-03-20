@@ -1,0 +1,25 @@
+#taskName{
+    margin:10px;
+    padding: 10px;
+    width: 650px;
+    height:30px;
+    font-size: 20px;
+    display: inline-block;
+    background-color: aliceblue;
+    border: solid rgb(105, 175, 232) 5px;
+}
+
+#sumbit{
+    padding: 10px;
+    width:30px;
+    height:30px;
+    display: inline-block;
+    color:rgb(159, 247, 255);
+    text-align: center;
+    font-weight: bolder;
+    font-size: 25px;
+    background-color: #6cc2ff;
+    border: solid rgb(105, 175, 232) 5px;
+
+}
+

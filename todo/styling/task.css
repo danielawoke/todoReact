@@ -1,0 +1,72 @@
+#name{
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(203, 218, 254);
+    border: solid rgb(147, 206, 255) 5px;
+    padding: 7px;
+    width:600px;
+    text-overflow: string;
+    max-height: 20px;
+    white-space: normal;    /* Ensure text wraps normally */
+    overflow-wrap: break-word; /* Prevent long words from causing issues */
+    text-indent: 0; 
+    overflow:auto;
+    word-wrap: break-word; /* Prevent long words from causing overflow */
+}
+#nameFinished{
+    text-decoration: line-through;
+    font-size: 20px;
+    display: inline-block;
+    background-color: rgb(2, 31, 101);
+    border: solid rgb(147, 206, 255) 5px;
+    padding: 7px;
+    color:aliceblue;
+    width:600px;
+    max-height: 20px;
+    white-space: normal;    /* Ensure text wraps normally */
+    overflow-wrap: break-word; /* Prevent long words from causing issues */
+    text-indent: 0; 
+    overflow:auto;
+    word-wrap: break-word; /* Prevent long words from causing overflow */
+}
+#check{
+    width:40px;
+    height:35px;
+    display: inline-block;
+    position: relative;
+    display:inline-block;
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(147, 206, 255) 5px;
+    margin:10px;
+    font-size: 28px;
+    color:white
+}
+#checkFinsished{
+    width:40px;
+    height:35px;
+    display: inline-block;
+    position: relative;
+    display:inline-block;
+    background-color: rgb(2, 31, 101);
+    border: solid rgb(147, 206, 255) 5px;
+    margin:10px;
+    font-size: 28px;
+    color:rgb(2, 31, 101);
+}
+
+#check:hover{
+    width:40px;
+    height:35px;
+    display: inline-block;
+    position: relative;
+    display:inline-block;
+    border: solid rgb(147, 206, 255) 5px;
+    margin:10px;
+    font-size: 28px;
+    color:rgb(28, 142, 235);
+    background-color: rgb(28, 142, 235);
+}
+#task{
+    width:750px;
+    margin-bottom: 10px;
+}
