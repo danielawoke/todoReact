@@ -26,18 +26,18 @@ export default function Index() {
   //function that crosses off a task
   const checkTask = (ID) => {
     //creates a clone array of the current tasks
-    let newArr = [...tasks];
+    let cloneTasks = [...tasks];
     //iterates through the new array to find the matching index
-    for(let i = 0; i<newArr.length; i++){
-      if(newArr[i].ID == ID){
+    for(let i = 0; i<cloneTasks.length; i++){
+      if(cloneTasks[i].ID == ID){
         //once found, a new element with the same name and Id for the previous task is created, but not it is marked as checked
-        const newEl =  {taskName:newArr[i].taskName, ID:newArr[i].ID, checked:1}
+        const newEl =  {taskName:cloneTasks[i].taskName, ID:cloneTasks[i].ID, checked:1}
         //remove the old element
-        newArr.splice(i, 1); 
+        cloneTasks.splice(i, 1); 
         //create new list with the now finsihed task appended to the bottom of the list
-        const arr = [...newArr, newEl];
+        const updatedTasks = [...cloneTasks, newEl];
         //update state
-        update(arr);
+        update(updatedTasks);
         //break and end function
         break;
       }
@@ -47,13 +47,13 @@ export default function Index() {
   //function responsible for remove tasks when thier garbage icon is clicked on
   const delTask = (ID) => {
     //clone the current tasks array
-    let newArr = [...tasks];
+    let cloneTasks = [...tasks];
     //iterate through cloned array and serach for the match ID
-    for(let i = 0; i<newArr.length; i++){
+    for(let i = 0; i<cloneTasks.length; i++){
       //once found, remove it from the array and update the state
-      if(newArr[i].ID == ID){
-        newArr.splice(i, 1); 
-        update(newArr);
+      if(cloneTasks[i].ID == ID){
+        cloneTasks.splice(i, 1); 
+        update(cloneTasks);
         break;
       }
     }
