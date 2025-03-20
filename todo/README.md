@@ -38,4 +38,6 @@ You can delete tasks by clicking the trash icon listed to the right of any of th
 
 ![image](https://github.com/user-attachments/assets/43e1b94c-34cf-4fc7-bc33-ec57feb07ddd)
 
+![image](https://github.com/user-attachments/assets/01558241-f361-4fb3-8d82-c6612bddcfe8)
+
 
